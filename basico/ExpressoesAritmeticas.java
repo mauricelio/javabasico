@@ -5,6 +5,8 @@ package cursoJava.basico;
  * 
  * autor: Mauricelio Lima
  * 
+ * data: 25/03/2021
+ * 
  */
 
 public class ExpressoesAritmeticas {
@@ -26,7 +28,18 @@ public class ExpressoesAritmeticas {
 		System.out.println(resultado4);
 
 		System.out.println(Math.PI);
-
+		
+		
+		//exercício de progressão
+		int a = 14, b = 5;
+		int c = a % b;
+		double divisao = a / b;
+		System.out.println(c);
+		
+		System.out.println(Math.ceil(divisao));
+		
+		System.out.println(Math.pow(5,2));
+		
 		
 
 	}
